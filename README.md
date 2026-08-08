@@ -7,8 +7,9 @@ Python
 
 customtkinter
 ```bash
-pip install customtkinter```
-
+pip install customtkinter
+```
 psutil
 ```bash
-pip install psutil```
+pip install psutil
+```
