@@ -147,8 +147,8 @@ class PyPyControlCenter(ctk.CTk):
         credits_box.pack(fill="x", padx=50, pady=10)
 
         ctk.CTkLabel(credits_box, text="Development Team", font=ctk.CTkFont(size=18, weight="bold")).pack(pady=(15, 5))
-        ctk.CTkLabel(credits_box, text="Lead UI/UX Architect: TheMangler47").pack(pady=2)
-        ctk.CTkLabel(credits_box, text="Logic & Backend: Python Engine (Obviously)").pack(pady=2)
+        ctk.CTkLabel(credits_box, text="Developer: TheMangler47").pack(pady=2)
+        ctk.CTkLabel(credits_box, text="Logic & Backend: Python (Obviously)").pack(pady=2)
         ctk.CTkLabel(credits_box, text="Product Owner: You (Yes You! Lmfao)").pack(pady=(2, 15))
 
         tech_box = ctk.CTkFrame(container, corner_radius=15)
@@ -156,7 +156,7 @@ class PyPyControlCenter(ctk.CTk):
 
         ctk.CTkLabel(tech_box, text="Core Technologies", font=ctk.CTkFont(size=18, weight="bold")).pack(pady=(15, 5))
         ctk.CTkLabel(tech_box, text="Framework: CustomTkinter (Modernized Tkinter)").pack(pady=2)
-        ctk.CTkLabel(tech_box, text="Telemetry: psutil (Process & System Utilities)").pack(pady=2)
+        ctk.CTkLabel(tech_box, text="Telemetry: psutil (Proc & System Utils)").pack(pady=2)
         ctk.CTkLabel(tech_box, text="Platform: Cross-Platform Python 3.x").pack(pady=(2, 15))
 
         ctk.CTkLabel(container, text="© 2026 PyPy Control Center Projects. All rights reserved.", font=ctk.CTkFont(size=10)).pack(side="bottom", pady=20)
